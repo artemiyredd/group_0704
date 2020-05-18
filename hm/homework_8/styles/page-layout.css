@@ -1,0 +1,135 @@
+.page-content {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 1168px;
+}
+
+.bg-box {
+  background-image: url(/assets/Rectangle.png);
+  height: 1168px;
+}
+
+.booking-box {
+  margin-top: 346px;
+  margin-left: 414px;
+  display: inline-block;
+  height: 475px;
+  width: 441px;
+  background: #ffffff;
+  box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.book-header {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+  margin-top: 15px;
+  margin-left: 32px;
+}
+
+.book-item {
+  margin-top: 24px;
+  margin-left: 39px;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  color: #484848;
+}
+
+.where-box {
+  margin-top: 15px;
+  margin-left: 32px;
+  width: 377px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+}
+
+.book-item-in {
+  display: inline-block;
+  margin-left: 31px;
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #484848;
+}
+
+.book-item-out {
+  display: inline-block;
+  margin-left: 117px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #484848;
+}
+
+.in-box {
+  margin-top: 12px;
+  margin-left: 33px;
+  width: 188px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+}
+
+.out-box {
+  margin-left: -4px;
+  width: 188px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+}
+
+.adult-item {
+  display: inline-block;
+  margin-left: 33px;
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #484848;
+}
+
+.child-item {
+  display: inline-block;
+  margin-left: 102px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #484848;
+}
+
+.amount-box {
+  margin-left: 32px;
+  margin-top: 9px;
+  width: 377px;
+  height: 48px;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.search-btn {
+  display: inline-block;
+  margin-top: 24px;
+  margin-left: 258px;
+  padding-top: 12px;
+  width: 153px;
+  height: 48px;
+  background: #ff5a5f;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}

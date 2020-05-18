@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-nav {
+  text-align: center;
+  height: 90px;
+  line-height: 90px;
+  border-bottom: 2px solid #131313;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.page-link {
+  color: #131313;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.page-link.active {
+  color: rgb(98, 98, 98);
+}
+
+.page-link:hover {
+  color: rgb(98, 98, 98);
+}
+
+.page-content {
+  background-color: red;
+  height: 200px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.list-item::before {
+  content: "+";
+  color: lightgreen;
+  border: 1px solid green;
+}
+
+.list-item::after {
+  content: "-";
+  color: lightgreen;
+  border: 1px solid green;
+}

@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #292325;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-nav {
+  text-align: center;
+  height: 90px;
+  border-bottom: 2px solid #131313;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.page-link {
+  color: #131313;
+  display: inline-block;
+  margin: 0 20px;
+  line-height: 90px;
+}
+
+.page-link.active {
+  color: rgb(98, 98, 98);
+}
+
+.page-link:hover {
+  color: rgb(98, 98, 98);
+}
+
+.page-link:focus {
+  color: green;
+}
+
+.page-link:active {
+  color: red;
+}
+
+.page-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.field {
+  outline: none;
+}
+.field:hover {
+  border: 2px solid red;
+}
+
+.field:focus {
+  border: 2px solid yellow;
+}
+
+.field:active {
+  border: 2px solid blue;
+}
+
+.list-item:hover::after {
+  content: "+";
+  font-size: 25px;
+  color: light-green;
+  border: 1px solid green;
+}
+
+.page-content {
+  background: red;
+  height: calc(100vh - 90px);
+}
+
+.name-section {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.promotion-banner {
+  border: 1px solid red;
+  font-size: 0px;
+}
+
+.banner-item {
+  height: 500px;
+  width: calc(33.3333% - 16px);
+  display: inline-block;
+  font-size: 15px;
+  margin: 0 8px;
+  position: relative;
+  text-align: center;
+}
+
+.page-footer {
+  height: 100px;
+  background: rgb(22, 22, 22);
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.item-description {
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.action-button {
+  width: 150px;
+  margin: 40px auto 0;
+  display: block;
+  padding: 12px 20px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+  color: #292325;
+}
+
+.action-button:hover {
+  border-color: black;
+  color: #292325;
+}
+
+.banner-item.colored {
+  background-color: #f7eac4;
+}
+
+.banner-item.with-image {
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-item:first-child {
+  background-image: url(./assets/images/1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-item:last-child {
+  background-image: url(./assets/images/2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.ad-banner {
+  max-width: 958px;
+  height: 100px;
+  margin: 0 8px;
+  background: lightgrey;
+}
+
+.ad-banner-name-section {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 4%;
+  margin-top: 15px;
+}
+
+.meet-hanna-banner,
+.contact-me-banner {
+  height: 300px;
+  max-width: 960px;
+  display: inline-block;
+  margin: 0 8px;
+  position: relative;
+  text-align: center;
+}
+
+.photo-banner {
+  font-size: 0px;
+  height: 300px;
+  max-width: 960px;
+  display: inline-block;
+  margin: 0 8px;
+  position: relative;
+  text-align: center;
+}
+
+.banner-block:first-child {
+  background-image: url(./assets/images/3.jpg);
+  background-size: cover;
+  background-position: center;
+}

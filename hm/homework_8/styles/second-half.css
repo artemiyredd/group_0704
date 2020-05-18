@@ -1,0 +1,91 @@
+.first-row,
+.second-row {
+  display: flex;
+  justify-content: center;
+}
+
+.ad-box-item {
+  position: relative;
+  margin: 20px;
+  display: flex;
+  height: 525px;
+  width: 290px;
+  margin-top: 82px;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.14);
+}
+.ad-box {
+}
+
+.text-heading {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 19px;
+  position: relative;
+  font-size: 26px;
+  line-height: 16px;
+  color: #222222;
+}
+
+.rating {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 16px;
+  margin-left: 45px;
+}
+
+.rating-india {
+  margin-left: 125px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 16px;
+}
+
+.rating-petra {
+  margin-left: 125px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 16px;
+}
+
+.rating-vietnam {
+  margin-left: 85px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 16px;
+}
+
+img {
+  height: 331px;
+}
+
+.text-ad {
+  margin-top: 17px;
+  margin-left: 19px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+}
+
+.book-btn {
+  margin-top: 7px;
+  margin-left: 19px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  height: 40px;
+  width: 252px;
+  background: #18c6d1;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.book-btn :hover {
+  background: #14d081;
+}

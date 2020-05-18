@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(./ass/Object.png);
+  margin: 0;
+  padding: 0;
+  width: 1761px;
+  height: 2345px;
+}
+
+.heading {
+  font-weight: normal;
+  font-size: 37px;
+  color: #ffffff;
+  letter-spacing: -0.0355556px;
+  margin-left: 25.8%;
+  margin-top: 5%;
+}
+
+.box-1 {
+  width: 489px;
+  height: 73px;
+  background: #ffffff;
+  border-radius: 3px;
+  margin-top: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: -0.391111px;
+  color: #6b86a8;
+  padding: 28px 28px;
+  margin-left: 35%;
+}
+
+.box-2 {
+  width: 491px;
+  height: 125px;
+  background: #ffffff;
+  border-radius: 3px;
+  margin-top: 43px;
+  padding: 22px 33px;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: -0.391111px;
+  line-height: 169%;
+  color: #6b86a8;
+  margin-left: 35%;
+}
+
+.box-3 {
+  width: 490px;
+  height: 109px;
+  background: #ffffff;
+  border-radius: 3px;
+  margin-top: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 169%;
+  letter-spacing: -0.391111px;
+  color: #6b86a8;
+  padding: 24px 33px;
+  margin-left: 35%;
+}
+
+.email-form {
+  width: 320px;
+  height: 55px;
+  background: #ffffff;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+  margin-top: 35px;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: -0.0355556px;
+  margin-left: 35%;
+}
+
+.btn {
+  width: 159px;
+  height: 54px;
+  background: #ff5b1c;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.0355556px;
+  color: #ffffff;
+}
+
+.logos {
+  margin-left: 46%;
+}
+
+.facebokk-logo {
+  margin-top: 100px;
+  margin-right: 27px;
+  margin-left: 35%;
+}
+
+.twitter-logo {
+  margin-top: 100.5px;
+  margin-right: 29px;
+  margin-left: 27px;
+}
+
+.inst-logo {
+  margin-top: 102px;
+}

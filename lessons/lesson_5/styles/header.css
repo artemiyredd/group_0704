@@ -1,0 +1,9 @@
+.page-header {
+  background-color: #fede60;
+  height: 40px;
+}
+
+.page-header > .page-content {
+  display: flex;
+  justify-content: space-between;
+}

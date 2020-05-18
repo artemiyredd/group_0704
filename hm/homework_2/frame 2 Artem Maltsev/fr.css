@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #74408c;
+}
+
+.sign-in-form {
+  background: #ffffff;
+  width: 464px;
+  height: 433px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-header {
+  color: #74408c;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.form-header div {
+  padding-top: 55px;
+}
+
+.form-field {
+  width: 391px;
+  height: 55px;
+  background: #e5e9ed;
+  border: 1px solid #c9c9c9;
+  border-radius: 5px;
+  margin-left: 36px;
+}
+
+.sign-in-form div {
+  margin-top: 14px;
+}
+
+.btn {
+  width: 391px;
+  height: 55px;
+  background: #74408c;
+  border: 1px solid #74408c;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #ffffff;
+  margin-left: 36px;
+}
+
+div.button-wrapper {
+  margin-top: 55px;
+}
+
+.forgot-password-form {
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 30px;
+}

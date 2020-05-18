@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #292325;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-nav {
+  text-align: center;
+  height: 90px;
+  border-bottom: 2px solid #131313;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.page-link {
+  color: #131313;
+  display: inline-block;
+  margin: 0 20px;
+  line-height: 90px;
+}
+
+.page-link.active {
+  color: rgb(98, 98, 98);
+}
+
+.page-link:hover {
+  color: rgb(98, 98, 98);
+}
+
+.page-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.name-section {
+  margin: 15px auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.page-content {
+  min-height: calc(100vh - 90px);
+}
+
+.promotion-baner {
+  font-size: 0;
+}
+
+.baner-item {
+  font-size: 15px;
+  height: 680px;
+  width: calc(33.3333% - 16px);
+  display: inline-block;
+  margin: 0 8px;
+  position: relative;
+  text-align: center;
+}
+
+.item-description {
+  position: absolute;
+  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.action-button {
+  display: block;
+  width: 150px;
+  color: #292325;
+  margin: 40px auto 0;
+  padding: 12px 20px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.action-button:hover {
+  border-color: #292325;
+}
+
+.baner-item.colored {
+  background-color: #f7eae4;
+}
+
+.baner-item.with-image {
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.baner-item:first-child {
+  background-image: url(./assets/images/1.jpg);
+}
+
+.baner-item:last-child {
+  background-image: url(./assets/images/2.jpg);
+}
+
+.cake-baner {
+  margin: 0 8px;
+  margin-top: 50px;
+  background: lightgray;
+  text-align: center;
+}
+
+.cake-section {
+  font-size: 15px;
+  height: 100px;
+  display: inline-block;
+  margin: 0 8px;
+  position: relative;
+  text-align: center;
+  padding-top: 4%;
+}
+
+.contact-section {
+  font-size: 0px;
+  margin-top: 50px;
+}
+
+.contact-baner {
+  font-size: 15px;
+  height: 450px;
+  width: calc(50% - 16px);
+  display: inline-block;
+  margin: 0 8px;
+  position: relative;
+  text-align: center;
+}
+
+.contact-baner {
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.contact-baner:first-child {
+  background-image: url(./assets/images/3.jpg);
+}
+
+.contact-baner:last-child {
+  background-image: url(./assets/images/4.jpg);
+}
+
+.hanna-btn,
+.contact-btn {
+  display: block;
+  width: 150px;
+  color: #292325;
+  margin: 340px 280px;
+  padding: 12px 20px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.follow-me-item {
+  margin: 30px auto 70px;
+  text-align: center;
+}
+
+.subscribe-form {
+  margin: 0 300px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form-header {
+  margin: 30px 0;
+}
+
+.email-form {
+  height: 30px;
+  width: 300px;
+  margin-bottom: 8px;
+  padding-left: 20px;
+  border: 1px solid black;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.subscribe-btn {
+  height: 30px;
+  width: 300px;
+  font-size: 15px;
+  font-weight: bold;
+  background: black;
+  color: white;
+  border: 0px;
+}
+
+.bottom-footer {
+  text-align: center;
+  height: 40px;
+  background: rgb(248, 210, 216);
+}
+
+.text-footer {
+  padding-top: 1%;
+  font-weight: normal;
+  font-size: 13px;
+}
